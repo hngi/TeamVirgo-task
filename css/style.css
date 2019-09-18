@@ -11,7 +11,7 @@ body{
     align-items: center;
     margin: -20px 0 50px;
     overflow-y: hidden;
-    height:100vh;
+    height: 105.5vh;
 }
 
 h1{
@@ -38,19 +38,17 @@ a{
     margin: 15px 0;
 }
 
-/*.container{
+.container{
     background: #fff;
-    border-radius: 10px;
-    box-shadow: 
+    /* border-radius: 10px; */
+    /* box-shadow: 
         0 14px 28px rgba(0, 0, 0, 0.25), 
-        0 10px 10px rgba(0, 0, 0, 0.22);
+        0 10px 10px rgba(0, 0, 0, 0.22); */
     position: relative;
     overflow: hidden;
     width: 768%;
     max-width: 100%;
-    min-height: 550px;*/
-    
-
+    height: 100vh;
 }
 
 .form-container form{
@@ -200,6 +198,7 @@ button:ghost{
 .overlay-left{
     background:url("../images/login\ bg.png");
     background-size: cover;
+    padding-top: 3rem;
 }
 
 .overlay-right{
@@ -207,6 +206,7 @@ button:ghost{
     transform: translateX(0);
     background:url("../images/login\ bg.png");
     background-size: cover;
+    padding-top: 3rem;
 }
 
 /* Amination */
