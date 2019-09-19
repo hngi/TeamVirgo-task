@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <title>TeamVirgo Sign-in/Sign-up</title>
@@ -12,21 +11,26 @@
 
       <div class="container" id="container">
         <div class="form-container sign-up-container">
-          <form action="#" method="POST">
-            <h1>Create Account</h1>
+          <form action="registration.php" method="POST">
+            <h1>Create Your Account</h1>
+            <br>
             <input type="text" placeholder="Username" required>
             <input type="email" placeholder="Email" required>
             <input type="password" placeholder="Password" required>
+            <br>
             <button>Sign Up</button>
           </form>
         </div>
 
         <div class="form-container sign-in-container">
-          <form action="#" METHOD="POST">
-            <h1>Sign in</h1>
+          <form action="validation.php" METHOD="POST">
+            <h1>Let's Get You Signed In</h1>
+            <br>
             <input type="text" placeholder="Username" required>
             <input type="password" placeholder="Password" required>
+            <br>
             <a href="#">Forgot your password?</a>
+            <br>
             <button>Sign In</button>
           </form>
         </div>
@@ -36,14 +40,14 @@
             <div class="overlay-panel overlay-left">
               <h1>teamVirgo</h1>
               <img alt="avatars" src="images/avatars.png">
-              <h3>Let's get you logged in</h3>
+              <h3>Have an account?</h3>
               <button class="ghost" id="signIn">Sign In</button>
             </div>
             <div class="overlay-panel overlay-right">
                 <h1>teamVirgo</h1>
                 <img alt="avatars" src="images/avatars.png">
               <h1>Hello, Friend!</h1>
-              <p><b>Enter your personal details and start your journey with us.</b></p>
+              <p><b>Start your journey with us.</b></p>
               <button class="ghost" id="signUp">Sign Up</button>
             </div>
           </div>

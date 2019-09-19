@@ -20,6 +20,7 @@ h1{
 }
 
 p{
+    color: #ffffff;
     font-size: 14px;
     font-weight: 100;
     line-height: 20px;
@@ -40,10 +41,6 @@ a{
 
 .container{
     background: #fff;
-    /* border-radius: 10px; */
-    /* box-shadow: 
-        0 14px 28px rgba(0, 0, 0, 0.25), 
-        0 10px 10px rgba(0, 0, 0, 0.22); */
     position: relative;
     overflow: hidden;
     width: 768%;
@@ -75,7 +72,7 @@ button{
     font-family: 'Montserrat', 'Lato', sans-serif;
     border-radius: 20px;
     border: none;
-    background: #ffd500;
+    background: #FFC107;
     color: #000000;
     font-size: 12px;
     font-weight: bold;
@@ -87,27 +84,27 @@ button{
 button:hover{
     cursor:pointer;
     color:#eee;
-    background-color:darkcyan;
+    background-color: #ffc107;
 }
 
 #signIn{
-    background:#fff;
+    background: #FFC107;
 }
 
 #signIn:hover{
     cursor:pointer;
     color:#eee;
-    background-color:darkcyan;
+    background-color:  #FFC107;
 }
 
 #signUp{
-    background:#fff;
+    background: #FFC107;
 }
 
 #signUp:hover{
     cursor:pointer;
     color:#eee;
-    background-color:darkcyan;
+    background-color: #FFC107;
 }
 
 button:active{
@@ -118,7 +115,7 @@ button:focus{
     outline: none;
 }
 
-button:ghost{
+button .ghost{
     background: transparent;
     border-color: #fff;
 }
@@ -157,7 +154,7 @@ button:ghost{
 .overlay{
     background: rgb(218, 218, 210);
     background: 
-        linear-gradient(to right, #ffd500, #ffd500) 
+        linear-gradient(to right, #2c0a63, #2a095f) 
         no-repeat 0 0 / cover;
     color: #000;
     position: relative;
@@ -189,16 +186,18 @@ button:ghost{
 
 .overlay-panel img{
     margin-top:70px;
-    height:95px;
-    width:180px;
+    height: 12rem;
+    width: 20rem;
 }
 
 .overlay-panel h3{
-    font-weight:bold;
+    /* font-weight:bold; */
+    color: #ffffff;
+    padding: 1em;
 }
 
 .overlay-left{
-    background:url("../images/login\ bg.png");
+    background:url("../images/Group\ 9.png");
     background-size: cover;
     padding-top: 3rem;
 }
@@ -206,9 +205,9 @@ button:ghost{
 .overlay-right{
     right: 0;
     transform: translateX(0);
-    background:url("../images/login\ bg.png");
+    background:url("../images/Group\ 9.png");
     background-size: cover;
-    padding-top: 3rem;
+    padding-top: 0.1rem;
 }
 
 /* Amination */
@@ -253,14 +252,17 @@ button:ghost{
 
 .column-wide {
   width: 100%;
-  float: left;
   min-height: 50px;
+}
+
+.column-wide h1 {
+    margin-right: 55rem;
 }
 
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
   overflow: hidden;
 }
 
@@ -268,22 +270,20 @@ button:ghost{
     width: 100%;
     height: 65px;
     margin: 20px;
-    font-family: Roboto, 'Montserrat', 'Lato', sans-serif;
+    font-family: 'Montserrat', 'Lato', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 64px;
     line-height: 75px;
     color: #FFC107;
     text-align: center;
-
-
 }
 
 .work {
-    width: 100%px;
+    width: 100%;
     height: 88px;
     margin-left: 20px;
-    font-family: Roboto, 'Montserrat', 'Lato', sans-serif;
+    font-family: 'Montserrat', 'Lato', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 48px;
@@ -294,16 +294,14 @@ button:ghost{
 
 header {
   background: #FFC107;
-  color: #8D99AE;
-  text-align: center;
 }
+
 header h1 {
     color: #ffffff;
     margin: 0;
-    font-family: Roboto, 'Montserrat', 'Lato', sans-serif;
+    font-family: 'Montserrat', 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
-
 }
