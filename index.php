@@ -24,25 +24,32 @@
       <div class="form-container sign-in-container">
         <form action="validation.php" METHOD="POST">
          
-          <h1>Sign in</h1>
+          <h1>Let's get you logged in.</h1>
+          <h3>Enter your username and password</h3>
           <input type="text" placeholder="Username" required name="username">
           <input type="password" placeholder="Password" required name="password">
           <a href="#">Forgot your password?</a>
-          <button>Sign In</button>
+          <button>LogIn</button>
         </form>
       </div>
 
       <div class="overlay-container">
         <div class="overlay">
           <div class="overlay-panel overlay-left">
-            <h1>teamVirgo</h1>
+            <div class="teamVirgoFont">
+              <h1>teamVirgo</h1>
+            </div>
                  <img alt="avatars" src="images/avatars.png">
             <p><h3>Let's get you logged in</h3></p>
-                 <button class="ghost" id="signIn">Sign In</button>
+                 <button class="ghost" id="signIn">LogIn</button>
           </div>
           <div class="overlay-panel overlay-right">
+            <div class="teamVirgoFont">
+              <h1>teamVirgo</h1>
+            </div>
+                 <img alt="avatars" src="images/avatars.png">
             <h1>Hello, Friend!</h1>
-            <p><b>Enter your personal details and start your journey with us.</b></p>
+            <p><b>Start your journey with us.</b></p>
             <button class="ghost" id="signUp">Sign Up</button>
           </div>
         </div>

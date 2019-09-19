@@ -39,6 +39,11 @@ a{
     margin: 15px 0;
 }
 
+.teamVirgoFont {
+    font-family: 'Rozha One';
+    font-size: 25px
+}
+
 .container{
     background: #fff;
     position: relative;
@@ -185,7 +190,7 @@ button .ghost{
 }
 
 .overlay-panel img{
-    margin-top:70px;
+    margin-top:50px;
     height: 12rem;
     width: 20rem;
 }
@@ -199,7 +204,7 @@ button .ghost{
 .overlay-left{
     background:url("../images/Group\ 9.png");
     background-size: cover;
-    padding-top: 3rem;
+    padding-top: 0.1rem;
 }
 
 .overlay-right{
